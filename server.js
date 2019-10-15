@@ -6,6 +6,8 @@
 // | last_name   | varchar(45)          | NO   | MUL | NULL                |                               |
 // | last_update | timestamp            | NO   |     | current_timestamp() | on update current_timestamp() |
 // +-------------+----------------------+------+-----+---------------------+-------------------------------+
+// SET GLOBAL FOREIGN_KEY_CHECKS=0 para que pueda borrar
+
 
 var express = require("express");
 var app = express();
